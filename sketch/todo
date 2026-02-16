@@ -1,0 +1,17 @@
+# TODO PAR PRIORITÉ
+
+1. base
+    - tables [ok]
+    - donnees de base [ok]
+2. Enregistrer les donations
+    - liste de villes (sans détails)
+    - bouton par ville (recupère id ville et va vers la page de donation)
+    - formulaire pour donation (insert)
+3. afficher les details des besoins et donations des villes
+    - sur le tableau de bord (bouclé pour toutes les villes)
+        - afficher besoins par ville
+        - afficher donations par ville
+    - sur la page donation (par récupération de l'id_ville)
+        - afficher besoins par ville
+        - afficher dons par ville
+        
