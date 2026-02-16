@@ -5,7 +5,7 @@
     - donnees de base [ok]
 2. Enregistrer les donations
     - liste de villes (sans détails)
-    - bouton par ville (recupère id ville et va vers la page de donation) (**$_SESSION['id_ville']**)
+    - bouton par ville (recupère id ville et va vers la page de donation) (**$ville**)
     - formulaire pour donation (insert)
         - champs / input
             - Objet de don (à stocker dans **$obj_don**)
@@ -15,7 +15,7 @@
             - INSERT dans la table DON
                 - id_objets : **$obj_don**
                 - quantite_dons : **$qte_don**
-                - id_villes : **$_SESSION['id_ville']**
+                - id_villes : **$ville**
 3. afficher les details des besoins et donations des villes
     - sur le tableau de bord (bouclé pour toutes les villes)
         * JOIN ville + besoins
