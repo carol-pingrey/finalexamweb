@@ -9,9 +9,13 @@
     - formulaire pour donation (insert)
 3. afficher les details des besoins et donations des villes
     - sur le tableau de bord (bouclé pour toutes les villes)
+        * JOIN ville + besoins
+        * JOIN ville + donations
         - afficher besoins par ville
         - afficher donations par ville
     - sur la page donation (par récupération de l'id_ville)
+        * JOIN ville + besoins
+        * JOIN ville + donations
         - afficher besoins par ville
         - afficher dons par ville
         
